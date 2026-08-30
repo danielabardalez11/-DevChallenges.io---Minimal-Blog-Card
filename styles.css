@@ -1,65 +1,74 @@
-
-body{
+body {
     background-color: #FFFFFF;
+    font-family: 'Sora', sans-serif;
+    margin: 0;
 }
 
-
-article{
-   /* margin-left:450px;
-    margin-right: 450px ;
-    margin-top: 164px;
-    margin-bottom: 164px;*/
+article {
     margin: auto;
+    margin-top: 164px;
     box-sizing: border-box;
     width: 368px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 20px;
-    padding-top: 16px;
+    padding: 16px;
+
     box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
-    background-color: rosybrown;
-    border-radius: 16px;
-    
+    background-color: #FAFAF9;
+
+    border-radius: 10px;
 }
 
-
-
-img{
+img {
     width: 336px;
     max-width: 100%;
     display: block;
-    border-radius: 16px;
-
+    border-radius: 10px;
 }
 
-span{
+span {
+    display: inline-block;
     color: #7C19EE;
-    font-family: 'Sora', sans-serif ;
+    background-color: #E6D6FC;
+
+    font-family: 'Sora', sans-serif;
     font-size: 10px;
+    font-weight: 700;
     line-height: 16px;
-    background-color: #F2EAFD;
-    padding:;
-    border-radius: 2px;
+
+    padding: 4px 8px;
+    border-radius: 10px;
+
+    margin-top: 16px;
 }
 
-h1{
+h1 {
     color: #20293A;
     font-family: 'Sora', sans-serif;
     font-size: 18px;
-    line-height: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+    margin: 16px 0 6px;
 }
 
-p{
-    color: #394150 ;
+.description {
+    color: #394150;
     font-family: 'Sora', sans-serif;
     font-size: 14px;
-    line-height: 16px;
+    font-weight: 400;
+    line-height: 20px;
 
+    margin: 0;
 }
 
-footer{
-    color: #394150 ;
+footer {
+    color: #394150;
     font-family: 'Sora', sans-serif;
     font-size: 12px;
+    font-weight: 400;
+
+    margin-top: 20px;
 }
 
+footer p {
+    margin: 0;
+}
